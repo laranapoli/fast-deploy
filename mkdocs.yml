@@ -1,0 +1,16 @@
+site_name: FastDeploy
+repo_url: https://github.com/laranapoli/fast-deploy
+repo_name: laranapoli/fast-deploy
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  # logo: assets/logo.png
+  # favicon: assets/logo.png assets fica dentro de docs!
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
