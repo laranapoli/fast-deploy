@@ -5,9 +5,18 @@ description = ""
 authors = ["laranapoli <laranapoli0@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+PYTHONDONTWRITEBYTECODE = "1"
+serve = "fast_deploy.cli:app"
+
 [tool.poetry.dependencies]
 python = "^3.12"
 scikit-learn = "^1.5.2"
+typer = "^0.12.5"
+rich = "^13.9.3"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+python-multipart = "^0.0.12"
 
 
 [tool.poetry.group.dev.dependencies]
