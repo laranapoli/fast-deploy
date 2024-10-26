@@ -8,7 +8,18 @@ from fast_deploy.model_loader import ModelLoader
 
 class SklearnModelLoader(ModelLoader):
     def load_model(self, model_path: str) -> BaseEstimator:
-        """Carrega um modelo treinado com Scikit-learn"""
+        """
+        Carrega um modelo treinado com Scikit-learn
+
+        Args:
+            model_path: Caminho para o arquivo do modelo
+
+        Returns:
+            O modelo carregado em memória.
+
+        Raises:
+            FileNotFoundError: Caso o caminho seja inválido.
+        """
         if not os.path.exists(model_path):
             raise FileNotFoundError(
                 f'O arquivo {model_path} não foi encontrado.'
