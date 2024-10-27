@@ -7,6 +7,16 @@ Clone o repositório e execute:
 poetry install
 ```
 
+## Pré-requisitos
+
+Antes de executar a aplicação, verifique se você possui os reguintes pré-requisitos instalados:
+
+- **Docker**: Certifique-se de que o Docker está instalado e em funcionamento em sua máquina. Você pode verificar isso executando o seguinte comando no terminal:
+
+    ```bash
+    docker --version
+    ```
+
 ## Comando Principal
  
 ### deploy
