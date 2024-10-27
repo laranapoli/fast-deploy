@@ -25,6 +25,9 @@ async def upload_lodel(file: UploadFile = File(...)):
         model = model_loader.load_model(tmp_file_path)
 
         os.remove(tmp_file_path)
+
+        return {'message': 'Modelo carregado com sucesso!'}
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
