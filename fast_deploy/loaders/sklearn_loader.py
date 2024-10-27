@@ -12,13 +12,15 @@ class SklearnModelLoader(ModelLoader):
         Carrega um modelo treinado com Scikit-learn
 
         Args:
-            model_path: Caminho para o arquivo do modelo
+            model_path: Caminho para o arquivo de objeto serializado
 
         Returns:
-            O modelo carregado em memória.
+            O modelo carregado em memória
 
         Raises:
-            FileNotFoundError: Caso o caminho seja inválido.
+            FileNotFoundError: Caso o caminho seja inválido
+            TypeError: Caso o modelo não seja treinado com scikit-learn
+            RuntimeError: Em caso de erro genérico
         """
         if not os.path.exists(model_path):
             raise FileNotFoundError(

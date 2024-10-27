@@ -19,4 +19,4 @@ plugins:
 - mkdocstrings:
     handlers: 
       python:
-        paths: [fast_deploy]
+        paths: [fast_deploy, fast_deploy/loaders]
