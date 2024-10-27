@@ -15,6 +15,9 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+watch:
+  - fast_deploy
+
 plugins:
 - mkdocstrings:
     handlers: 
