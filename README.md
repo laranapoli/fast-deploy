@@ -17,6 +17,8 @@ Antes de executar a aplicação, verifique se você possui os reguintes pré-req
     docker --version
     ```
 
+    Se o Docker não estiver instalado, você pode seguir as instruções de instalação na [documentação oficial do Docker](https://docs.docker.com/engine/install/)
+
 ## Comando Principal
  
 ### deploy
