@@ -23,7 +23,7 @@ Antes de executar a aplicação, verifique se você possui os reguintes pré-req
  
 ### deploy
 
-Inicia um container Docker com seu modelo.
+Inicia um container Docker uma API com as rotas para fazer o upload de seu modelo e para obter seus resultados.
 
 **Uso**:
 ```bash
