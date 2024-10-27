@@ -9,13 +9,13 @@ poetry install
 
 ## Comando Principal
  
-### serve
+### deploy
 
 Inicia um container Docker com seu modelo.
 
 **Uso**:
 ```bash
-poetry run serve [image_name] [port] [--verbose]
+poetry run deploy [image_name] [port] [--verbose]
 ```
 - image_name: Nome da imagem Docker (default: 'fastdeploy')
 - port: Porta da API (default: 8000)
