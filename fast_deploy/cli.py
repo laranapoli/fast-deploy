@@ -8,6 +8,11 @@ app = Typer()
 
 
 def check_docker_installed():
+    """Verifica se o Docker está instalado no sistema.
+
+    Raises:
+        SystemExit: Encerra o programa com código 1 se o Docker não estiver instalado
+    """
     try:
         subprocess.run(
             ['docker', '--version'],
@@ -30,6 +35,21 @@ def deploy(
         False, '--verbose', help='Flag para exibir logs do container'
     ),
 ):
+    """Constrói e executa um container Docker para disponibilizar a API.
+
+    Esta função verifica se o Docker está instalado, constrói uma imagem Docker
+    a partir do diretório atual e executa um container para expor a API na
+    porta especificada.
+
+    Parameters:
+        image_name (str): Nome da imagem Docker a ser construída. Padrão é 'fastdeploy'
+        port (int): Porta para expor a API do container. Padrão é 8000
+        verbose (bool): Flag que, se definida, exibe os logs de construção e execução
+         do container. Padrão é False
+
+    Raises:
+        SystemExit: Encerra o programa se o Docker não estiver instalado
+    """
     check_docker_installed()
     console.print('Buildando Docker container...')
     build_command = ['docker', 'build', '-t', image_name, '.']
