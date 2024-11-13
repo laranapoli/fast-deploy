@@ -1,1 +1,1 @@
-::: api.main
+::: fast_deploy.api.main
