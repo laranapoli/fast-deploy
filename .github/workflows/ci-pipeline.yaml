@@ -9,8 +9,10 @@ jobs:
       - name: Copiar arquivos do repositorio
         uses: actions/checkout@v3
 
-      - name: Instalar Docker
-        uses: papodaca/install-docker-action@main
+      - name: Instalar Docker manualmente
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io
 
       - name: Instalar o Python
         uses: actions/setup-python@v4
