@@ -1,5 +1,8 @@
 version: 2
 
+mkdocs:
+  configuration: mkdocs.yml
+
 build:
   os: "ubuntu-22.04"
   tools:
@@ -12,7 +15,3 @@ build:
 
     post_install:
       - poetry install --only doc
-      - pip install pymdown-extensions
-
-mkdocs:
-  configuration: mkdocs.yml
