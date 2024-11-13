@@ -13,6 +13,7 @@ build:
     post_install:
       - poetry install --only doc
       - pip install pymdown-extensions mkdocs-material mkdocs-macros-plugin mkdocstrings==0.18.0
+      - export PYTHONPATH=$(pwd)
 
 mkdocs:
   configuration: mkdocs.yml
