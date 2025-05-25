@@ -15,4 +15,5 @@ build:
 
     post_install:
       - poetry install
+      - pip install pymdown-extensions --force
 
