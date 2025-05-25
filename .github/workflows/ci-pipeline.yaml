@@ -21,7 +21,7 @@ jobs:
         run: poetry install --without doc
 
       - name: Rodar testes
-        run: poetry run task test
+        run: poetry run task test --cov-report=xml
       
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
