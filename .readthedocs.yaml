@@ -15,5 +15,5 @@ build:
 
     post_install:
       - poetry install
-      - pip install pymdown-extensions mkdocs-material --force
+      - pip install pymdown-extensions mkdocs-material mkdocs-macros-plugin --force
 
