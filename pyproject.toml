@@ -7,11 +7,11 @@ authors = ["laranapoli <laranapoli0@gmail.com>"]
 readme = "README.md"
 packages = [{include = "notas_musicais"}]
 classifiers = [
-    "Topic :: Education"
-    "Environment :: Console"
-    "Natural Language :: Portuguese (Brazilian)"
-    "Development Status :: 4 - Beta"
-    "Programming Language :: Python :: 3.12"
+    "Topic :: Education",
+    "Environment :: Console",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.12",
 ]
 
 [tool.poetry.urls]
