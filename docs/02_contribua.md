@@ -95,7 +95,7 @@ Os templates estão definidos no diretório `/docs/templates`. Em alguns casos, 
 ```yaml
 extra:
   commands:
-    run: deploy
+    run: poetry run deploy
 ```
 
 ##### Documentação da API
@@ -145,7 +145,7 @@ poetry install
 ### Como executar o CLI
 
 ```bash
-deploy
+poetry run deploy
 ```
 
 ### Como executar a verificação de código
