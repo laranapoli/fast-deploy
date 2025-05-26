@@ -3,7 +3,7 @@
 Para instalação do CLI do projeto, recomendamos que use o `pipx`:
 
 ```bash
-pipx install fast-deploy
+pipx install l6n-fast-deploy
 ```
 
 Você também pode instalar o projeto com o gerenciador de sua preferência, como o pip:

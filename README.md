@@ -8,7 +8,7 @@ FastDeploy é uma ferramenta CLI que simplifica o deploy de modelos de machine l
 ## Instalação
 Clone o repositório e execute:
 ```bash
-pipx install fast-deploy
+pipx install l6n-fast-deploy
 ```
 
 ## Pré-requisitos
