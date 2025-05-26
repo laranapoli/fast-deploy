@@ -34,4 +34,4 @@ plugins:
 
 extra:
   commands:
-    run: poetry run deploy
+    run: deploy
