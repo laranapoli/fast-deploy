@@ -31,7 +31,7 @@ Inicia em um container Docker uma API com as rotas para fazer o upload de seu mo
 
 **Uso**:
 ```bash
-poetry run deploy [image_name] [port] [--verbose]
+deploy [image_name] [port] [--verbose]
 ```
 - image_name: Nome da imagem Docker (default: 'fastdeploy')
 - port: Porta da API (default: 8000)
