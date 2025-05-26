@@ -1,10 +1,14 @@
 # FastDeploy
+[![Read the Docs](https://readthedocs.org/projects/fast-deploy/badge/?version=latest)](https://fast-deploy.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/laranapoli/fast-deploy/graph/badge.svg?token=O5NJOZWTE9)](https://codecov.io/gh/laranapoli/fast-deploy)
+![CI](https://github.com/laranapoli/fast-deploy/actions/workflows/ci-pipeline.yaml/badge.svg)
+
 FastDeploy é uma ferramenta CLI que simplifica o deploy de modelos de machine learning como APIs REST em containers Docker.
 
 ## Instalação
 Clone o repositório e execute:
 ```bash
-poetry install
+pipx install fast-deploy
 ```
 
 ## Pré-requisitos
