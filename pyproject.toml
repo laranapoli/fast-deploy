@@ -5,7 +5,7 @@ description = "FastDeploy é uma ferramenta CLI que simplifica o deploy de model
 license = "BeerWare"
 authors = ["laranapoli <laranapoli0@gmail.com>"]
 readme = "README.md"
-packages = [{include = "notas_musicais"}]
+packages = [{include = "fast_deploy"}]
 classifiers = [
     "Topic :: Education",
     "Environment :: Console",
