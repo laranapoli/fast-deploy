@@ -1,9 +1,23 @@
 [tool.poetry]
 name = "fast-deploy"
 version = "0.1.0"
-description = ""
+description = "FastDeploy é uma ferramenta CLI que simplifica o deploy de modelos de machine learning como APIs REST em containers Docker."
+license = "BeerWare"
 authors = ["laranapoli <laranapoli0@gmail.com>"]
 readme = "README.md"
+packages = [{include = "notas_musicais"}]
+classifiers = [
+    "Topic :: Education"
+    "Environment :: Console"
+    "Natural Language :: Portuguese (Brazilian)"
+    "Development Status :: 4 - Beta"
+    "Programming Language :: Python :: 3.12"
+]
+
+[tool.poetry.urls]
+"Documentação" = "https://fast-deploy.readthedocs.io/pt-br/latest/"
+"Código" = "https://github.com/laranapoli/fast-deploy"
+"Bug Tracker" = "https://github.com/laranapoli/fast-deploy/issues"
 
 [tool.poetry.scripts]
 deploy = "fast_deploy.cli:app"
