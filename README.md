@@ -1,5 +1,5 @@
 # FastDeploy
-[![Read the Docs](https://readthedocs.org/projects/fast-deploy/badge/?version=latest)](https://fast-deploy.readthedocs.io/en/latest/?badge=latest)
+[![Read the Docs](https://readthedocs.org/projects/fast-deploy/badge/?version=latest)](https://fast-deploy.readthedocs.io/pt-br/latest)
 [![codecov](https://codecov.io/gh/laranapoli/fast-deploy/graph/badge.svg?token=O5NJOZWTE9)](https://codecov.io/gh/laranapoli/fast-deploy)
 ![CI](https://github.com/laranapoli/fast-deploy/actions/workflows/ci-pipeline.yaml/badge.svg)
 
