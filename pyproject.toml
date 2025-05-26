@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fast-deploy"
+name = "l6n-fast-deploy"
 version = "0.1.0"
 description = "FastDeploy é uma ferramenta CLI que simplifica o deploy de modelos de machine learning como APIs REST em containers Docker."
 license = "BeerWare"
